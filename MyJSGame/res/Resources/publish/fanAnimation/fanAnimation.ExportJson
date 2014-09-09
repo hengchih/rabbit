@@ -1,0 +1,264 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.5.0.0",
+      "version": 1.5,
+      "name": "fanAnimation",
+      "bone_data": [
+        {
+          "name": "line_bone",
+          "parent": "",
+          "dI": 0,
+          "x": -57.695728302001953,
+          "y": -16.908287048339844,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -3.14159274,
+          "kY": 3.14159274,
+          "arrow_x": 8.600006103515625,
+          "arrow_y": -8.7435510067734867E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "line.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 4.36491776,
+                  "y": -0.4944191,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 3.14159274,
+                  "kY": 3.1415925
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "carrot_bone",
+          "parent": "line_bone",
+          "dI": 0,
+          "x": 11.000003814697266,
+          "y": -0.79999923706054688,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 5.88839436,
+          "kY": -5.88839436,
+          "arrow_x": 20.799991607666016,
+          "arrow_y": -2.7561281967791729E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "carrot.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 9.993126,
+                  "y": -0.3882885,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": 3.53638339,
+                  "kY": 2.74680138
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fan",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "name": "fan.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "fanAnimation",
+      "mov_data": [
+        {
+          "name": "run",
+          "dr": 31,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "line_bone",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.01307791,
+                  "kY": -0.01307785,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0346520953,
+                  "kY": 0.0346521549,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.01307791,
+                  "kY": -0.01307785,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "carrot_bone",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.2349599,
+                  "kY": -0.2349599,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.438128531,
+                  "kY": -0.438128531,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.2349599,
+                  "kY": -0.2349599,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "fan",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "fan",
+      "width": 174.0,
+      "height": 141.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "carrot",
+      "width": 22.0,
+      "height": 12.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "line",
+      "width": 13.0,
+      "height": 3.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "fanAnimation0.plist"
+  ],
+  "config_png_path": [
+    "fanAnimation0.png"
+  ]
+}

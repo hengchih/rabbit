@@ -29,6 +29,8 @@
             background: #4B6D65 !important;
             min-width: 568px;
             min-height: 320px;
+            font-family: "Microsoft JhengHei","Cambria", "serif";
+            color: #F5F5F5;
         }
         #Cocos2dGameContainer{
             width:100% !important;
@@ -57,7 +59,7 @@
             padding: 10px;
             border-radius: 100px;
             color: #F5F5F5;
-            text-shadow: 0 0 1px;
+            text-shadow: 0 0 1px #F5F5F5;
         }
 
         #gameCanvas{
@@ -69,9 +71,21 @@
             background: #D8DCCF  !important;
             z-index: 2;
         }
+        #loading{
+            position: absolute;
+            background: #4B6D65;
+            padding: 10px;
+            top: 0;
+            left: 50%;
+            margin-left: -50px;
+            box-shadow: 1px 1px 5px #000;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
     </style>
 </head>
 <body style="padding:0; margin: 0; background: #000;">
+<div id="loading">載入資料中...</div>
 <canvas id="gameCanvas" width="568" height="320"></canvas>
 <script src="frameworks/cocos2d-html5/CCBoot.js"></script>
 <script src="main.js"></script>
